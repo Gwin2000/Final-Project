@@ -9,9 +9,13 @@ Description: Resume page layout css
     text-align: center;
     background-color: white;
     font-family: "Hanken Grotesk";
+    line-height: 50%;
 }
 .item2{
     grid-area: contact;
+    background-color: white;
+    font-family: "Hanken Grotesk";
+    line-height: 90%;
 }
 .item3{
     grid-area: tech_skill;
