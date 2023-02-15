@@ -3,3 +3,45 @@ Author: Patrick Windle
 Date: 2023-02-15
 Description: Resume page layout css
 */
+
+.item1{
+    grid-area: name;
+    text-align: center;
+    background-color: white;
+    font-family: "Hanken Grotesk";
+}
+.item2{
+    grid-area: contact;
+}
+.item3{
+    grid-area: tech_skill;
+}
+.item4{
+    grid-area: education;
+}
+
+.item5{
+    grid-area: additional;
+}
+
+.item6{
+    grid-area: languages;
+}
+.item7{
+    grid-area: work_experience;
+}
+.grid-container {
+    display: grid;
+    grid-template-areas: /*3x6 grid*/
+    'name name name'
+    'contact education education'
+    'tech_skill education education'
+    'tech_skill work_experience work_experience'
+    'languages work_experience work_experience'
+    'languages work_experience work_experience'
+    'additional additional additional'
+    ;
+    gap: 10px;
+    background-color: #2196F3;
+    padding: 10px;
+  }
