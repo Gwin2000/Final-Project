@@ -25,6 +25,26 @@
             Etiam suscipit a metus a rhoncus. Quisque sagittis magna sit amet purus vulputate ullamcorper. Nam in mattis elit. Donec nunc dui, semper eu pulvinar at, feugiat at purus. Donec porttitor ultrices dolor, id vehicula ante euismod a. Aenean tempor eget lacus vitae dictum. Mauris a lectus lectus. Praesent finibus sed odio quis elementum. Cras ullamcorper, mauris at eleifend dictum, risus ex lobortis enim, in porttitor lectus magna semper purus. Aliquam est nisl, ornare eu suscipit at, egestas ac purus.
             Proin congue tincidunt rhoncus. Praesent vitae efficitur neque, vitae fringilla leo. Maecenas ut arcu at risus maximus aliquam eget in nisi. Integer a venenatis erat, sit amet rutrum lorem. Cras non ligula rhoncus, congue ipsum ut, elementum nunc. Vestibulum accumsan eros eget porta ultricies. In sit amet diam cursus, ultricies orci id, suscipit eros. Phasellus mattis mi enim, vitae euismod arcu mattis a. Aliquam erat volutpat. Aliquam sed dolor ac neque gravida facilisis nec tincidunt neque. Donec dictum dui at diam luctus egestas.
         </p>
+        <form name="contact" method="post" data-netlify-recaptcha="true" data-netlify="true">
+            <label for="fname">First name:</label>
+            <input type="text" id="fname" name="fname" value="">
+
+            <label for="lname">Last name:</label>
+            <input type="text" id="lname" name="lname" value="">
+
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" value=""><br><br>
+
+            <label for="message">Message:</label>
+            <textarea type="message" id="message" name="message" value="" rows="10" cols="50"></textarea>
+            
+            <br><br>
+            <br>
+            
+            <div data-netlify-recaptcha="true"></div>
+            <button type="submit">Send</button>
+        </form> 
+          
     </section>
 </body>
 </html>
