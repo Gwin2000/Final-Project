@@ -58,6 +58,7 @@ nav {
 	display: flex;
 }
 
+/* Styling that applies to all nav items */
 .nav__link--anchor {
 	margin: 0 12px;
 	color: black;
@@ -65,13 +66,19 @@ nav {
 	font-weight: 700;
 }
 
+/* Styling that adds underline on hover to all nav items */
+.nav__link--anchor:hover {
+	text-decoration: underline;
+}
+
+/* Styling that applies only to contact nav item (purple circle) */
 .nav__link--anchor-primary {
 	background-color: #6030b1;
 	padding: 8px 20px;
 	border-radius: 50px;
 	color: white;
 }
-
+/* Styling that applies only to contact nav item on hover (Transition to dif color) */
 .nav__link--anchor-primary:hover {
 	background-color: #5d3eff;
 }
@@ -102,6 +109,7 @@ nav {
 	height: 100px;
 	border-radius: 50%;
 	overflow: hidden;
+	margin-bottom: 28px;
 }
 
 .about-me__pic {
