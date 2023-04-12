@@ -137,3 +137,50 @@ nav {
 .about-me__info--title {
 	margin-bottom: 16px;
 }
+
+/* Contact Page */
+
+.about-me__wrapper {
+	display: flex;
+}
+
+/* Circle and alignment */
+.about-me__link {
+	border: 3px solid black;
+	height: 70px;
+	width: 70px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	border-radius: 50%;
+	margin: 5px;
+	text-decoration: none;
+}
+
+/* Icon in circle */
+.about-me__link i {
+	font-size: 25px;
+	color: black;
+}
+
+/* Makes bounce effect activate on hover */
+.about-me__link:hover {
+	animation: bounce 0.4s cubic-bezier(0.59, -0.67, 0.24, 0.79) 2;
+	animation-direction: alternate;
+}
+
+/* Bounce Animation */
+@keyframes bounce {
+	0% {
+		transform: translateY(0);
+	}
+
+	/* How high it bounces */
+	100% {
+		transform: translateY(-25px);
+	}
+}
+
+
+
+
