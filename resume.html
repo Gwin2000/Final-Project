@@ -4,41 +4,220 @@
         <meta charset="UTF-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>Patrick's Resume</title>
-        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Hanken+Grotesk">
-        <link rel="stylesheet" href="portfolio_base.css">
-        <link rel="stylesheet" href="Resume_Layout.css">
+        <link href="Resume_Layout.css" rel="stylesheet">
+        <script src="https://kit.fontawesome.com/5605bebcc6.js" crossorigin="anonymous"></script>
+        <title>Resume</title>
     </head>
     <body>
-        <nav>
-            <div>
-                <h2>Navigation</h2>
-                <a href="index.html">Home</a>
-                <a href="contact.html">Contact</a>
-                <a href="goals.html">Goals</a>
-                <a href="skills.html">Skills</a>
-                <a href="resume.html">Resume</a>
+            <header>
+                <!-- Nav bar -->
+                <nav>
+                    <!-- Top left name -->
+                    <div class="p__logo">Patrick Windle</div>
+                    <ul class="nav__link--list">
+                        <!-- link at top to home -->
+                        <li><a href="index.html" class="
+                            nav__link--anchor 
+                            link__hover-effect 
+                            link__hover-effect--black
+                            ">Home</a></li>
+                        <!-- link at top to resume -->
+                        <li><a href="resume.html" class="
+                            nav__link--anchor 
+                            link__hover-effect 
+                            link__hover-effect--black
+                            ">Resume</a></li>
+                        <!-- link at top to goals -->
+                        <li><a href="goals.html" class="
+                            nav__link--anchor 
+                            link__hover-effect 
+                            link__hover-effect--black
+                            ">Goals</a></li>
+                        <!-- link at top to skills -->
+                        <li><a href="skills.html" class="
+                            nav__link--anchor 
+                            link__hover-effect 
+                            link__hover-effect--black
+                            ">Skills</a></li>
+                        <!-- link at top to contact w/ dif styling -->
+                        <li><a href="contact.html" class="
+                            nav__link--anchor 
+                            nav__link--anchor-primary
+                            ">Contact</a></li>
+                    </ul>
+                </nav>
+            </header>
+
+        <div class="container2">
+            <div class="left_Side">
+                <div class="profileText">
+                    <div class="imgBx">
+                        <img src="Prof_pic.png" alt="Profile Pic">
+                    </div>
+                    <h2>Patrick Windle<br><span>Database Engineer</span></h2>
+                </div>
+                <div class="contactInfo">
+                    <h3 class="title">Contact Info</h3>
+                    <ul>
+                        <li>
+                            <span class="icon"><i class="fa-solid fa-phone"></i></span>
+                            <span class="text">+1 506-476-3681</span>
+                        </li>
+                        <li>
+                            <span class="icon"><i class="fa-solid fa-envelope"></i></span>
+                            <span class="text">gwin2000@outlook.com</span>
+                        </li>
+                        <li>
+                            <span class="icon"><i class="fa-solid fa-globe"></i></span>
+                            <span class="text">Website URL</span>
+                        </li>
+                        <li>
+                            <span class="icon"><i class="fa-sharp fa-solid fa-map-location"></i></span>
+                            <span class="text">Halifax, Nova Scotia</span>
+                        </li>
+                    </ul>
+                </div>
+
+                <div class="contactInfo education">
+                    <h3 class="title">Work Experience</h3>
+                    <ul>
+                        <li>
+                            <h4>Heart & Stroke Foundation</h4>
+                            <h6>June 2022 - August 2022</h6>
+                        </li>
+                        <li>
+                            <h4>Wyndham Hotels & Resorts</h4>
+                            <h6>May 2021 - August 2021</h6>
+                        </li>
+                        <li>
+                            <h4>Habitat for Humanity</h4>
+                            <h6>May 2020 - August 2020</h6>
+                        </li>
+                    </ul>
+                </div>
+
+                <div class="contactInfo languages">
+                    <h3 class="title">Languages</h3>
+                    <ul>
+                        <li>
+                            <h4>English</h4>
+                            <h6>Proficiency: Native</h6>
+                        </li>
+                        <li>
+                            <h4>French</h4>
+                            <h6>Proficiency: Intermediate+</h6>
+                        </li>
+                    </ul>
+                </div>
+
+                <div class="contactInfo languages">
+                    <h3 class="title">Certifications & Training</h3>
+                    <ul>
+                        <li>
+                            <h4>WHIMIS</h4>
+                            <h6>2022</h6>
+                        </li>
+                        <li>
+                            <h4>Occupational Health & Safety</h4>
+                            <h6>2022</h6>
+                        </li>
+                    </ul>
+                </div>
+            </div>    
+
+            <div class="right_Side">
+                <div class="about">
+                    <h2 class="title2">Profile</h2>
+                    <p>
+                        I am a first year database adminstration student at NSCC. 
+                        Along with working towards my database adminstration diploma, I am also finishing a B.A in psychology at UNB. 
+                        I am very passionate about data, machine learning, sports and video games.
+                    </p>
+                </div>
+
+                <div class="about">
+                    <h2 class="title2">Education</h2>
+                    <div class="box">
+                        <div class="year_company">
+                            <h5>2022 - Present</h5>
+                            <h6>Nova Scotia Community College</h6>
+                        </div>
+                        <div class="text">
+                            <h4>Diploma - Database Adminstration</h4>
+                            <p>
+                                Relevant Coursework: Data Analysis, Data Modeling, Operating Systems, Networking, Object Oriented Programming, Business Analysis, Sentiment Analysis<br>
+                                Technical Skills: SQL, Python, Java, HTML, Linux, Cisco CLI, Git
+                            </p>
+                        </div>
+                    </div>
+                    <div class="box">
+                        <div class="year_company">
+                            <h5>2018 - Present</h5>
+                            <h6>University of New Brunswick</h6>
+                        </div>
+                        <div class="text">
+                            <h4>Bachelor of Arts/Psychology</h4>
+                            <p>
+                                Relevant Coursework: Statistical Analysis, Research Design
+                            </p>
+                        </div>
+                    </div>
+                    <div class="box">
+                        <div class="year_company">
+                            <h5>2014-2018</h5>
+                            <h6>Leo Hayes High School /<br> Fredericton High School</h6>
+                        </div>
+                        <div class="text">
+                            <h4>Diploma - Highschool</h4>
+                            <p>
+                                Relevant Coursework: Advanced Math
+                            </p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="about">
+                    <h2 class="title2">Projects</h2>
+                    <div class="box">
+                        <div class="year_company">
+                            <h5>2023</h5>
+                        </div>
+                        <div class="text">
+                            <h4>Judges Choice(Oceans of Data Challenge)</h4>
+                            <p>
+                                Won judges choice at the annual Oceans of Data Challenge hosted by DeepSense. 
+                                My role within our team, was to scrape twitter using an API to find tweets related to our topic. 
+                                Following the acquisition of the tweets, I then created and implemented the code for sentiment analysis using TextBlob and other python libraries.
+                            </p>
+                        </div>
+                    </div>
+                    <div class="box">
+                        <div class="year_company">
+                            <h5>2022</h5>
+                        </div>
+                        <div class="text">
+                            <h4>SQL Database</h4>
+                            <p>
+                                Created a database using SQL as the back end and Microsoft Access as the front-end, connecting the two using ODBC. 
+                                The user would use a report generated by Access to interact with the SQL back end, inputting their info into the report. 
+                                All data was formatted to third normal form per proper database schema design.
+                            </p>
+                        </div>
+                    </div>
+                    <div class="box">
+                        <div class="year_company">
+                            <h5>2022</h5>
+                        </div>
+                        <div class="text">
+                            <h4>Java OOP</h4>
+                            <p>
+                                Created a GUI program to enter names of guests on a guest list as well as other details related to those guests. 
+                                This project utilizes OOP concepts such as superclasses and subclasses, arrays, loops (for & while), constructors, methods, etc. 
+                            </p>
+                        </div>
+                    </div>
+                </div>
             </div>
-        </nav>
-        <h1>Resume</h1>
-        <div class="grid-container">
-            <div class="item1">
-                <h1>Patrick Windle</h1>
-                <h3>DATABASE ENGINEER</h3>
-            </div>
-            <div class="item2">
-                <h2>Contact</h2>
-                <ul>
-                    <li>Email: W0481420@nscc.ca</li>
-                    <li>Phone Number: 1-506-476-3681</li>
-                    <li>Address: 1138 Tower rd, Halifax</li>
-                </ul>
-            </div>  
-            <div class="item3">Tech_Skills</div>
-            <div class="item4">Educational</div>
-            <div class="item5">Additional</div>
-            <div class="item6">Languages</div>
-            <div class="item7">Work Experience</div>
-          </div>
+        </div>
     </body>
 </html>
